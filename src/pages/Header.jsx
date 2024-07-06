@@ -17,7 +17,7 @@ const Header = ({login}) => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Taskify
+              Task Manager
             </span>
           </Link>
           <Link to="/signupPage">
