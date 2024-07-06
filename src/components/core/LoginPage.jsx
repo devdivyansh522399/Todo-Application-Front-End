@@ -33,7 +33,7 @@ const LoginPage = () => {
             type="email"
             {...register("email", { required: true })}
             placeholder="Enter your email"
-            className="w-full px-4 py-3 mb-7 text-white border border-pure-greys-5 rounded-md focus:outline-none"
+            className="w-full px-4 py-3 mb-7  border border-pure-greys-5 rounded-md focus:outline-none"
             style={{ borderWidth: ".1px" }} // Adjust border width here
           />
           {errors.email && (
@@ -43,7 +43,7 @@ const LoginPage = () => {
             type="password"
             {...register("password", { required: true })}
             placeholder="Enter your password"
-            className="w-full px-4 py-3 mb-11 text-white border border-pure-greys-5 rounded-md focus:outline-none"
+            className="w-full px-4 py-3 mb-11 border border-pure-greys-5 rounded-md focus:outline-none"
             style={{ borderWidth: ".1px" }} // Adjust border width here
           />
           {errors.password && (
